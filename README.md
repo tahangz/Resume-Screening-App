@@ -44,7 +44,7 @@ The models were trained on a resume dataset sourced from Kaggle.
 4.  **Label Encoding (`LabelEncoder`)**:
     * Job categories from the training dataset were encoded into numerical labels. The `encoder.pkl` file contains the fitted label encoder for converting predictions back to category names.
 5.  **Model Training & Prediction**:
-    * The primary classification model used is a `OneVsRestClassifier` wrapping a `KNeighborsClassifier` (as suggested by the project description, though the code uses `svc_model` which might imply an SVC or similar; adjust if `KNeighborsClassifier` was the final choice or clarify if `clf.pkl` is a different model).
+    * The primary classification model used is a `OneVsRestClassifier` which is `clf.pkl`.
     * The trained model (`clf.pkl`) is loaded to predict the category of new resumes.
 
 ---
@@ -67,8 +67,8 @@ The models were trained on a resume dataset sourced from Kaggle.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone [https://github.com/tahangz/Resume-Screening-App.git](https://github.com/your-username/Resume-Screening-App.git)
+    cd Resume-Screening-App
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -99,3 +99,14 @@ Once the setup is complete, run the Streamlit application using the following co
 
 ```bash
 streamlit run app.py
+````
+
+## 📂 File Structure (Simplified)
+your-repository-name/
+│
+├── app.py                # Main Streamlit application script
+├── clf.pkl               # Trained classification model
+├── tfidf.pkl             # Fitted TF-IDF vectorizer
+├── encoder.pkl           # Fitted LabelEncoder
+├── requirements.txt      # (Recommended) List of dependencies
+└── README.md             # This file
