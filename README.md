@@ -6,7 +6,7 @@ AI-Powered Resume Screening App categorizing resumes into job roles using NLP (T
 This project is an AI-driven application designed to automatically classify resumes into predefined job categories. It leverages Natural Language Processing (NLP) techniques for text preprocessing and feature extraction, and Machine Learning models for classification. The application is built with Streamlit, providing an interactive web interface for users to upload resumes and instantly get category predictions.
 
 <p align="center">
-  <img src="resume_screenin.png" alt="Sample Gesture" width="1000"/>
+  <img src="resume_screening.png" alt="THE APP" width="1000"/>
 </p>
 
 The development process involved:
@@ -34,7 +34,7 @@ The development process involved:
 The models were trained on a resume dataset sourced from Kaggle.
 * **Dataset Link**: [https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset]
 <p align="center">
-  <img src="Screenshot 2025-05-21 141821.png" alt="Sample Gesture" width="800"/>
+  <img src="Screenshot 2025-05-21 141821.png" alt="DATA LABELS" width="800"/>
 </p>
 
 ---
