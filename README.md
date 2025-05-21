@@ -109,11 +109,12 @@ streamlit run app.py
 ````
 
 ## 📂 File Structure (Simplified)
-your-repository-name/
-│
-├── app.py                # Main Streamlit application script
-├── clf.pkl               # Trained classification model
-├── tfidf.pkl             # Fitted TF-IDF vectorizer
-├── encoder.pkl           # Fitted LabelEncoder
-├── requirements.txt      # (Recommended) List of dependencies
-└── README.md             # This file
+
+Resume-Screening-App/  
+│  
+├── app.py                # Main Streamlit application script  
+├── clf.pkl               # Trained classification model  
+├── tfidf.pkl             # Fitted TF-IDF vectorizer  
+├── encoder.pkl           # Fitted LabelEncoder  
+├── requirements.txt      # List of dependencies  
+└── README.md             # Readme  
