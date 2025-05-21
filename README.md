@@ -28,7 +28,13 @@ The development process involved:
 ## 📊 Dataset
 
 The models were trained on a resume dataset sourced from Kaggle.
-* **Dataset Link**: [Provide the link to your Kaggle dataset here]
+* **Dataset Link**: [https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset]
+* <p align="center">
+  <img src="Screenshot 2025-05-05 013244.png" alt="Sample Gesture" width="400"/>
+</p>
+<p align="center">
+  <img src="Screenshot 2025-05-05 013244.png" alt="Sample Gesture" width="400"/>
+</p>
 
 ---
 
