@@ -74,8 +74,7 @@ The models were trained on a resume dataset sourced from Kaggle.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/tahangz/Resume-Screening-App.git](https://github.com/your-username/Resume-Screening-App.git)
-    cd Resume-Screening-App
+    git clone https://github.com/tahangz/Resume-Screening-App.git
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
